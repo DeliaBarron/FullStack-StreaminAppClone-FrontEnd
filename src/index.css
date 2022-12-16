@@ -1,0 +1,77 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+/*  THERE'S ROOT AND BODY CSS @ APP.CSS  */
+body {
+  margin: 4%;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(35, 2, 84);
+}
+.logo{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+}
+.logo img{
+  width:15%;
+  border-radius: 13px;
+  margin-bottom: 1%;
+  padding: 1%;
+  background-color:  rgba(236, 232, 239, 0.819);
+}
+.navbar{
+  background-color: black;
+}
+.nav{
+  flex-direction: row;
+  /* justify-content:space-between; */
+}
+.navbar-link{
+  color: aliceblue;
+  margin: 7px;
+  text-decoration: none;
+}
+.home-cards{
+  display: flex;
+}
+.card-img{
+  border: black solid 3px;
+}
+.mainCard{
+  background-color: black;
+  color: antiquewhite;
+  height:100%;
+  
+}
+/*FORM*/
+.form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  position: absolute;
+}
+form{
+  width: 50%;
+  height: auto;
+  /* border: rgb(173, 169, 169) 1px solid; */
+  background-color: rgba(130, 9, 230, 0.44);
+  border-radius: 30px;
+  text-align: center;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+}
